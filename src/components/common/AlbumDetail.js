@@ -1,8 +1,6 @@
 import React from 'react';
 import { Text, View, Image, Linking } from 'react-native';
-import Card from './Card';
-import CardSection from './CardSection';
-import Button from './Button';
+import { Card, Button, CardSection } from '../common';
 
 const AlbumDetail = ({ album }) => {
 
@@ -52,4 +50,4 @@ const styles = {
       width: null
     }
 };
-export default AlbumDetail;
+export { AlbumDetail };
